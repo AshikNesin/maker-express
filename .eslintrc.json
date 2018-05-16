@@ -1,0 +1,10 @@
+{
+	"extends": [
+		"xo/esnext",
+		"prettier"
+	],
+	"plugins": [
+		"prettier"
+	],
+	"rules": {}
+}

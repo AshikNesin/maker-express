@@ -1,10 +1,10 @@
 // Packages
 const express = require('express');
-const router = express.Router();
+const router = express.Router(); // eslint-disable-line new-cap
 
 // Ours
 
-router.get('/', (req,res) => {
+router.get('/', (req, res) => {
 	res.send('Hello World!')
 });
 
