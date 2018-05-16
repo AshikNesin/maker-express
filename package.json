@@ -2,11 +2,17 @@
   "name": "express-api-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/start.js",
   "scripts": {
+  	"start":"node src/start.js",
+  	"dev":"nodemon src/start.js",
+  	"dev:debug":"nodemon src/start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Ashik Nesin <mail@ashiknesin.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
