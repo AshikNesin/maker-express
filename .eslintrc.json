@@ -6,5 +6,7 @@
 	"plugins": [
 		"prettier"
 	],
-	"rules": {}
+	"rules": {
+				"capitalized-comments": "off"
+	}
 }
