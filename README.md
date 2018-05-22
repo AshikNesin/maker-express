@@ -2,6 +2,8 @@
 
 Express boilerplate for makers :)
 
+Based on Wes Bos' [Learn Node](https://github.com/wesbos/Learn-Node)
+
 ### Packages
 
 * express
